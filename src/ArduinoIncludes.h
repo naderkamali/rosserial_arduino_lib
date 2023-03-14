@@ -37,6 +37,7 @@
 
 #if ARDUINO>=100
   #include <Arduino.h>  // Arduino 1.0
+  #include <SoftwareSerial.h> // Avoiding the "Serial not found" error
 #else
   #include <WProgram.h>  // Arduino 0022
 #endif
