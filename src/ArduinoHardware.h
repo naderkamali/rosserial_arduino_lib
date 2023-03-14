@@ -77,7 +77,7 @@ class ArduinoHardware {
 #elif defined(USE_TEENSY_HW_SERIAL) or defined(USE_STM32_HW_SERIAL)
       iostream = &Serial1;
 #else
-      iostream = &Serial;
+      iostream = &Serial1;
 #endif
       baud_ = 57600;
     }
